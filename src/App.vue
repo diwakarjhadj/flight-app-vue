@@ -6,7 +6,7 @@
       </a>
       <div class="header-text">
         <h1>GB International</h1>
-        <p>Select your source and destination to view available flights.</p>
+        <p>GB International has been a trusted educational travel agent and tour company since 1983 in Delhi Punjab and Hyderabad</p>
       </div>
     </header>
 
@@ -56,6 +56,7 @@ export default {
   margin-bottom: 20px;
   background-color: #0e1464;
   color: #fff;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
 }
 
 .logo {

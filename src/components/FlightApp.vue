@@ -1,5 +1,6 @@
 <template>
     <div class="flight-app">
+        <div class="flight-heading">To Book Your Flight with GB International</div>
       <div class="dropdowns">
         <label for="source">
           Source <span class="required">*</span>:
@@ -29,6 +30,10 @@
           Search Flights
         </button>
       </div>
+
+      <div v-if="!showResults && (!source || !destination)">
+        <p class="message">Please select both Source and Destination to view available flights.</p>
+    </div>
   
       <div v-if="showResults">
         <div v-if="filteredFlights.length" class="flights">
@@ -197,5 +202,17 @@
   p {
     margin: 5px 0;
   }
+
+  .message {
+    text-align: center;
+    color: #333;
+    font-size: 1rem;
+    margin: 20px 0;
+}
+.flight-heading{
+    font-weight: 600;
+    text-align: center;
+    margin: 0px 0px 10px 0px;
+}
   </style>
   
