@@ -27,7 +27,7 @@ This is a Single Page Responsive Application built using **Vue.js**. The applica
 
 1. Clone the repository:
    ```bash
-   git clone [git@github.com:diwakarjhadj/flight-app-vue.git](git@github.com:diwakarjhadj/flight-app-vue.git)
+   git clone git@github.com:diwakarjhadj/flight-app-vue.git
    cd flight-finder
    ```
 
